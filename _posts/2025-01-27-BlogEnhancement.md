@@ -10,3 +10,9 @@ title:  "Image Uploading Test using Typora"
 
 
 ![Best ML Cheet Sheet](../images/2025-01-27-BlogEnhancement/Best ML Cheet Sheet.png) 
+
+
+
+## Image 2
+
+![DevOps vs DataOps vs MLOps](../images/2025-01-27-BlogEnhancement/DevOps vs DataOps vs MLOps.png)
