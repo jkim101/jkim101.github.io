@@ -1,7 +1,12 @@
+---
+layout: single
+title:  "Image Uploading Test using Typora"
+---
+
 # Image Test using Typora
 
 > Is this fancy? 
 
 
 
-![Best ML Cheet Sheet](../images/2025-01-27-BlogEnhancement/Best ML Cheet Sheet.png)
+![Best ML Cheet Sheet](../images/2025-01-27-BlogEnhancement/Best ML Cheet Sheet.png) 
