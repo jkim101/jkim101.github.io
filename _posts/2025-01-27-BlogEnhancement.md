@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Image Uploading Test using Typora"
+categories: Learning
 ---
 
 # Image Test using Typora
