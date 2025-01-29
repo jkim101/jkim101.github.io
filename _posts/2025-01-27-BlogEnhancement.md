@@ -2,6 +2,7 @@
 layout: single
 title:  "Image Uploading Test using Typora"
 categories: learning
+tag: [blogging]
 ---
 
 # Image Test using Typora
