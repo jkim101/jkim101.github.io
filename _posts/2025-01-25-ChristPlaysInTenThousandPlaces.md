@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "Christ Plays in Ten Thousand Places - Eugine Peterson"
+categories: reading
+tags: [Christianity, Eugene Peterson]
 ---
 
 # Christ Plays in Ten Thousand Places
