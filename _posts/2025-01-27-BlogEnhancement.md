@@ -11,7 +11,7 @@ tags: [coding]
 
 
 
-![Best ML Cheet Sheet](https://github.com/jkim101/jkim101.github.io/blob/master/images/2025-01-27-BlogEnhancement/Best_ML_Cheet_Sheet.png) 
+![Best ML Cheet Sheet](https://github.com/jkim101/jkim101.github.io/blob/master/images/2025-01-27-BlogEnhancement/Best_ML_Cheet_Sheet.png?raw=true) 
 
 
 
