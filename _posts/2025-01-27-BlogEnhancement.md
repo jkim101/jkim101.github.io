@@ -17,4 +17,4 @@ tags: [coding]
 
 ## Image 2
 
-![DevOps vs DataOps vs MLOps](https://github.com/jkim101/jkim101.github.io/blob/master/images/2025-01-27-BlogEnhancement/DevOps_vs_DataOps_vs_MLOps.png)
+![DevOps vs DataOps vs MLOps](https://github.com/jkim101/jkim101.github.io/blob/master/images/2025-01-27-BlogEnhancement/DevOps_vs_DataOps_vs_MLOps.png?raw=true)
