@@ -11,10 +11,10 @@ tags: [coding]
 
 
 
-![Best ML Cheet Sheet](../images/2025-01-27-BlogEnhancement/Best ML Cheet Sheet.png) 
+![Best ML Cheet Sheet](../images/2025-01-27-BlogEnhancement/Best_ML_Cheet_Sheet.png) 
 
 
 
 ## Image 2
 
-![DevOps vs DataOps vs MLOps](../images/2025-01-27-BlogEnhancement/DevOps vs DataOps vs MLOps.png)
+![DevOps vs DataOps vs MLOps](../images/2025-01-27-BlogEnhancement/DevOps_vs_DataOps_vs_MLOps.png)
