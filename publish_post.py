@@ -48,8 +48,11 @@ def add_front_matter(content, title, date):
     offset_minutes = (offset % 3600) // 60
     tz_str = f"{offset_hours:+03d}{offset_minutes:02d}"
     
+    # Replace colon with hyphen in title to prevent Jekyll build errors
+    safe_title = title.replace(':', ' -')
+    
     front_matter = f"""---
-title: "{title}"
+title: "{safe_title}"
 date: {date.strftime('%Y-%m-%d %H:%M:%S')} {tz_str}
 categories:
   - blog

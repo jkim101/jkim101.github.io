@@ -1,4 +1,4 @@
-# Beyond Automation: The Sociotechnical Translation of the Automotive Industry via Agentic AI
+# Beyond Automation - The Sociotechnical Translation of the Automotive Industry via Agentic AI
 
 **A Perspective Based on Actor-Network Theory (ANT)**
 
