@@ -20,7 +20,8 @@ foo:
 
 # main links
 main:
-  # - title: "Quick-Start Guide"
+  - title: "Home"
+    url: /
   #   url: /docs/quick-start-guide/
   # - title: "About"
   #   url: /about/
