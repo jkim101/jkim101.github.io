@@ -1,6 +1,6 @@
 ---
 title: "💡 The AI Agent Boom, Re-Examined Through a 30-Year-Old Sociological Theory"
-date: 2025-12-02 21:13:01 
+date: 2025-12-02 21:13:01 -0500 
 categories:
   - blog
 tags:
