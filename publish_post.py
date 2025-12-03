@@ -178,7 +178,7 @@ def publish_post(draft_path, auto_commit=True):
     date = datetime.now()
     slug = slugify(title)
     filename = f"{date.strftime('%Y-%m-%d')}-{slug}.md"
-    target_path = os.path.join('docs', '_posts', filename)
+    target_path = os.path.join('_posts', filename)
     
     # Ensure target directory exists
     os.makedirs(os.path.dirname(target_path), exist_ok=True)
@@ -202,17 +202,37 @@ def publish_post(draft_path, auto_commit=True):
             subprocess.run(['git', 'commit', '-m', commit_message], check=True)
             print(f"✓ Committed to git")
             
-            # Ask for push confirmation
-            response = input("Push to GitHub? (y/n): ").strip().lower()
-            if response == 'y':
-                subprocess.run(['git', 'push', 'origin', 'master'], check=True)
-                print(f"✓ Pushed to GitHub")
-                print(f"\n🎉 Post published successfully!")
-            else:
-                print(f"\n✓ Post committed locally. Push manually when ready.")
+            # Auto-push without asking
+            print("Pushing to GitHub...")
+            subprocess.run(['git', 'push', 'origin', 'master'], check=True)
+            print(f"✓ Pushed to GitHub")
+            print(f"\n🎉 Post published successfully!")
+
         except subprocess.CalledProcessError as e:
             print(f"⚠️  Git error: {e}")
             print(f"Post created at {target_path} but not committed.")
+            return False
+
+    # Move draft to archived folder
+    try:
+        root_dir = os.path.dirname(os.path.abspath(__file__))
+        archived_dir = os.path.join(root_dir, 'archived')
+        os.makedirs(archived_dir, exist_ok=True)
+        
+        draft_filename = os.path.basename(draft_path)
+        target_archive_path = os.path.join(archived_dir, draft_filename)
+        
+        # Handle overwrite if file exists in archive
+        if os.path.exists(target_archive_path):
+            base, ext = os.path.splitext(draft_filename)
+            timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+            target_archive_path = os.path.join(archived_dir, f"{base}_{timestamp}{ext}")
+            
+        shutil.move(draft_path, target_archive_path)
+        print(f"✓ Moved draft to archive: {target_archive_path}")
+        
+    except Exception as e:
+        print(f"⚠️  Failed to move draft to archive: {e}")
     
     return True
 
