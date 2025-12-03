@@ -1,6 +1,6 @@
 ---
 title: "Beyond Automation - The Sociotechnical Translation of the Automotive Industry via Agentic AI"
-date: 2025-12-02 22:40:13 -0500
+date: 2025-12-02 22:43:29 -0500
 categories:
   - blog
 tags:
