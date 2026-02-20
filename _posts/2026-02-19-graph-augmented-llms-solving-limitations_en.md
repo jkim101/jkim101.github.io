@@ -1,6 +1,6 @@
 ---
 title: "Graph-Augmented LLMs: Solving Core LLM Limitations"
-date: 2026-02-19 23:35:38 -0500
+date: 2026-02-19 23:40:26 -0500
 categories:
   - blog
 tags:
@@ -9,6 +9,10 @@ tags:
   - knowledge graphs
   - LLM limitations
   - RPG-Encoder
+  - graph neural networks
+  - token efficiency
+  - LLM hallucination
+  - structural reasoning
 layout: single
 author_profile: true
 read_time: true

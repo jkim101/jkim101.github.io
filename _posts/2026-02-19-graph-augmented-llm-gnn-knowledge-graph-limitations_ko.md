@@ -1,6 +1,6 @@
 ---
 title: "그래프 증강 LLM: GNN과 지식 그래프로 한계 해결하는 법"
-date: 2026-02-19 23:35:38 -0500
+date: 2026-02-19 23:40:26 -0500
 categories:
   - blog
 tags:
@@ -10,6 +10,9 @@ tags:
   - 그래프 신경망
   - LLM 한계
   - RPG-Encoder
+  - 코드 이해
+  - RAG 시스템
+  - 토큰 효율성
 layout: single
 author_profile: true
 read_time: true
