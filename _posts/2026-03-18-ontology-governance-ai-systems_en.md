@@ -102,6 +102,7 @@ AI uses ontology structures for reasoning, retrieval, and decision-making. A cha
 
 Example: A knowledge graph-powered search engine relies on `ex:Equipment rdfs:subClassOf ex:Asset` to broaden search results. If governance changes this relationship to `ex:Equipment owl:equivalentClass ex:PhysicalAsset`, the search behavior shifts. Without version tracking and impact analysis, this change silently degrades search quality.
 
+{% raw %}
 ```python
 # Example: AI system consuming ontology structure
 from rdflib import Graph, Namespace
@@ -122,6 +123,7 @@ def get_all_equipment_types(parent_class):
 equipment_types = get_all_equipment_types(EX.Equipment)
 # AI uses this to expand search queries or classify entities
 ```
+{% endraw %}
 
 ### Second Relationship: AI Systems Depend Upon Ontologies
 
